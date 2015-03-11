@@ -1,0 +1,6 @@
+Firstly,all spaces should be deleted.
+    sed -i 's/ //g' hourly_88101_2011.csv
+secondly,all double quotations should be deleted.
+    sed -i 's/"//g' hourly_88101_2011.csv
+
+
